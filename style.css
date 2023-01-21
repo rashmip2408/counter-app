@@ -5,7 +5,8 @@
 
 body {
     margin-top: 30px;
-    background-image: url(./Assets/bg.jpg);
+    margin-bottom: 30px;
+    background-image: url(./bg.jpg);
     background-size: cover;
     font-family: 'Playfair Display', serif;
     text-align: center;
@@ -115,10 +116,10 @@ p {
 
 footer {
     color: rgb(160, 157, 157);
-    position: absolute;
-    bottom: 20px;
+    position: relative;
+    top: 20px;
     width: 100%;
-    height: 10px;
+    height: 30px;
 }
 
 
@@ -150,4 +151,9 @@ footer {
         width: 175px;
         height: 70px;
     }
+   footer {
+        top: 95%;
+        position: fixed;
+    }
+    
 }
